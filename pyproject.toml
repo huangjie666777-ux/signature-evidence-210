@@ -1,0 +1,5 @@
+[project]
+name = "signature-evidence-210"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = ["fastapi==0.115.12", "uvicorn==0.34.2", "asn1crypto==1.5.1", "cryptography==46.0.5", "python-multipart==0.0.20"]

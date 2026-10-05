@@ -1,0 +1,9 @@
+[tsa]
+default_tsa = tsa_section
+[tsa_section]
+serial = data/tsaserial
+crypto_device = builtin
+signer_digest = sha256
+digests = sha256, sha384
+tsa_name = no
+ess_cert_id_chain = no
